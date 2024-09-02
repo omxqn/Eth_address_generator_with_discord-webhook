@@ -9,8 +9,7 @@ from ecdsa import SigningKey, SECP256k1
 import sha3
 import requests
 
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1133628939810644048/2dTrXlWdawAQvMrm6EPOOvquzJ8D0ek7_j_jPPNiGZTceXN3vYH9NH84-F3PRQm4Tbh1'
-
+WEBHOOK_URL = "YOUR WEBHOOK URL"
 
 def checksum_encode(address: str) -> str:
     """Compute the Ethereum checksum address for a given hex address.
